@@ -1,0 +1,4 @@
+   meraki_v0:     INFO > Meraki dashboard API session initialized with these parameters: {'version': '0.110.6', 'api_key': '************************************0993', 'base_url': 'https://api.meraki.com/api/v0', 'single_request_timeout': 60, 'certificate_path': '', 'requests_proxy': '', 'wait_on_rate_limit': True, 'nginx_429_retry_wait_time': 60, 'action_batch_retry_wait_time': 60, 'retry_4xx_error': False, 'retry_4xx_error_wait_time': 60, 'maximum_retries': 2, 'simulate': False, 'be_geo_id': None, 'caller': None}
+   meraki_v0:    DEBUG > {'tags': ['SSIDs'], 'operation': 'updateNetworkSsid', 'method': 'PUT', 'url': '/networks/N_585467951558186717/ssids/0', 'json': {'wpaEncryptionMode': 'WPA2 only', 'psk': 'Test12345'}}
+   meraki_v0:  WARNING > SSIDs, updateNetworkSsid - HTTPSConnectionPool(host='api.meraki.com', port=443): Read timed out. (read timeout=60), retrying in 1 second
+   meraki_v0:     INFO > SSIDs, updateNetworkSsid - 200 OK

@@ -1,0 +1,18 @@
+---
+cisco:
+  device: SVT-meraki-MR45
+  ssid: sierra_mr45
+  security: WPA3 only
+  key: 1234567890
+  channel_avail: 40
+  network: SVT-MR45
+  bitrate: Dual band operation
+  networkID: N_585467951558186717
+
+lexus:
+  device: XR80
+
+steps:
+  step1: connect lexus to cisco
+  step2: check channel = 40
+
